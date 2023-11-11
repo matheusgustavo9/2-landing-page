@@ -1,0 +1,40 @@
+#sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #252525;
+}
+
+#sobre h1 {
+    font-size: 30px;
+    filter: drop-shadow(0 0 12px rgb(255, 251, 0));
+    text-align: center;
+}
+
+.imgs-sobre {
+    width: 50%;
+}
+
+.imgs-sobre img {
+    width: 120px;
+    position: absolute;
+    margin: 5px;
+}
+
+.imgs-sobre > img:nth-child(1) {
+    left: 97px;
+    top: 530px;
+}
+.imgs-sobre > img:nth-child(2) {
+    left: 185px;
+    top: 655px;
+}
+.imgs-sobre > img:nth-child(3)  {
+    left: 99px;
+    top: 780px;
+}
+
+.text-sobre {
+    width: 60%;
+}

@@ -4,10 +4,13 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
 body {
     color: white;
     font-family: "Agbalumo";
     overflow-x: hidden;
+    background-color: #131313;
 }
 
 header {
@@ -15,16 +18,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 22px ;
-    background-color: #131313;
 }
 
 header > h1 {
     text-decoration: underline;
-    z-index: 1;
 }
-
-.navbar { z-index: 2; }
-
 ul {
     display: flex;
     list-style: none;
@@ -35,13 +33,18 @@ li {
     margin-left: 25px;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
 #inicio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    background-color: #131313;
+    height: 85vh;
+    padding-bottom: 20px;
 }
 
 .text-principal {
@@ -49,7 +52,7 @@ li {
     font-family: "Oswald";
     font-weight: 100;
     margin: -80px 0 0 0;
-    background-image: url(images/mao2.png);
+    background-image: url(../images/mao2.png);
     background-size: 70%;
     background-position: top;
     background-repeat: no-repeat;
@@ -67,35 +70,4 @@ li {
 .text-principal p {
     margin: 10px 0 0 0;
     max-width: 430px;
-}
-
-article {
-    display: flex;
-}
-
-article > img {
-    width: 150px;
-}
-
-#inicio article > img:nth-child(1) {
-    width: 230px;
-    position: absolute;
-    top: 0;
-    right: -45px;
-    transform: rotate(-40deg);
-}
-
-#inicio article > img:nth-child(2) {
-    width: 230px;
-    position: absolute;
-    bottom: -10px ;
-    left: -45px;
-    transform: rotate(-40deg);
-}
-
-#inicio article > img:nth-child(3) {
-    width: 200px;
-    position: absolute;
-    top: 30%;
-    left: 10%;
 }
