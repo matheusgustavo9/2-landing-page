@@ -1,0 +1,99 @@
+#suplementos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #363636;
+}
+
+.suplements {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#suplementos h1 {
+    font-size: 30px;
+    filter: drop-shadow(0 0 12px red);
+    text-align: center;
+    margin: 10px;
+}
+
+#suplementos p {
+    position: relative;
+    top: 30vh;
+    margin: 0 0 15px 10px;
+    font-size: 20px;
+}
+
+.card {
+    width: 18vw;
+    height: 38vh;
+    margin: 8px;
+    border-radius: 10px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.whey {
+    background-image: url(../images/wheybg.png);
+    background-size: 85%;
+    background-color: #131313;
+}
+
+.creatina {
+    background-image: url(../images/creatinabg.webp);
+    background-size: 130%;
+    background-color: rgb(235, 26, 26);
+}
+.multivitaminico{
+    background-image: url(../images/multivitaminicobg.png);
+    background-size: 60%;
+    background-color: rgb(85, 26, 141);
+}
+.bcaa{
+    background-image: url(../images/bcaabg.png);
+    background-size: 60%;
+    background-color: rgb(41, 41, 153);
+}
+.albumina {
+    background-image: url(../images/albuminabg.png);
+    background-size: 55%;
+    background-color: rgb(212, 212, 34);
+}
+.melatonina{
+    background-image: url(../images/melatonina.png);
+    background-size: 65%;
+    background-color: rgb(116, 51, 177);
+}
+.pa{
+    background-image: url(../images/pabg.png);
+    background-size: 50%;
+    background-color: rgb(20, 20, 131);
+}
+.cafeinas{
+    background-image: url(../images/cafeinabg.webp);
+    background-size: 50%;
+    background-color: brown;
+}
+.pretreino{
+    background-image: url(../images/pretreinobg.png);
+    background-size: 60%;
+    background-color: rgb(214, 38, 38);
+}
+.zma{
+    background-image: url(../images/zmabg.png);
+    background-size: 50%;
+    background-color: rgb(230, 13, 13);
+}
+.glutamina{
+    background-image: url(../images/glutaminabg.png);
+    background-size: 65%;
+    background-color: rgb(40, 127, 199);
+}
+.vitaminas{
+    background-image: url(../images/vitaminabg.png);
+    background-size: 75%;
+    background-color: rgb(39, 182, 39);
+}

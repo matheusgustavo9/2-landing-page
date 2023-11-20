@@ -1,0 +1,22 @@
+#beneficios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.bnfcs-spmts {
+    text-align: center;
+}
+
+.bnfcs-spmts h1 {
+    font-size: 32px;
+}
+
+.bnfcs-spmts > .all-spmts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.
